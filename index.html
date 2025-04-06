@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>Arun's Outpost on the Web</title>
+  <style>
+    /* General Styles */
+    body {
+      background-color: lightblue;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      color: #333;
+    }
+
+    /* Navigation Bar Styles */
+    nav {
+      background-color: #2c3e50;
+    }
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    nav ul li {
+      float: left;
+    }
+    nav ul li a {
+      display: block;
+      color: #ecf0f1;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    nav ul li a:hover {
+      background-color: #1abc9c;
+      color: white;
+    }
+
+    /* Clearfix for Navigation */
+    nav::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Content Styles */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+      font-size: 2.5em;
+      margin-top: 20px;
+    }
+    .intro-text {
+      font-size: 1.2em;
+      color: #34495e;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .profile-pic {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    p {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li class="changeBackground"><a href="index.html">Intro</a></li>
+      <li class="changeBackground"><a href="research.html">Research</a></li>
+      <li class="changeBackground"><a href="publications.html">Publications</a></li>
+      <li class="changeBackground"><a href="students.html">Students</a></li>
+      <li class="changeBackground"><a href="teaching.html">Teaching</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <img src="portrait-2024.jpg" alt="Arun Ravindran" class="profile-pic" width = 250 height = 300>
+    <h1>Arun Ravindran, Ph.D.</h1>
+    <p class="intro-text">
+      I am an Associate Professor with the Department of Electrical and Computer Engineering at the University of North Carolina at Charlotte.
+    </p>
+    <p>
+      My research and teaching interests lie in the intersection of Generative AI and System Software, specifically for IoT, Edge, and Cloud computing systems. My current research focuses on utilizing generative AI to enhance task automation, cybersecurity, electronic design automation, and cyberphysical systems. I am also involved in a National Science Foundation-funded project to develop a scalable edge infrastructure for real-time AI-driven video analytics. I am passionate about hands-on system prototyping and staying at the cutting-edge of technology. I enjoy collaborating with industry and academia, innovating teaching and learning, and mentoring students at both the undergraduate and graduate levels.
+    </p>
+    <p>
+      I received my Ph.D. from The Ohio State University, and undergraduate degrees from the Birla Institute of Technology and Science, Pilani. In my spare time, I enjoy travel, Argentine Tango, BBQ, and Yoga.
+    </p>
+  </div>
+
+</body>
+</html>
